@@ -25089,9 +25089,6 @@ fi
     if test -f $with_add_source_root/jaxws/make/Makefile; then
       as_fn_error $? "Your add source root seems to contain a full jaxws repo! An add source root should only contain additional sources." "$LINENO" 5
     fi
-    if test -f $with_add_source_root/hotspot/make/Makefile; then
-      as_fn_error $? "Your add source root seems to contain a full hotspot repo! An add source root should only contain additional sources." "$LINENO" 5
-    fi
     if test -f $with_add_source_root/nashorn/make/Makefile; then
       as_fn_error $? "Your add source root seems to contain a full nashorn repo! An add source root should only contain additional sources." "$LINENO" 5
     fi
@@ -25298,7 +25295,7 @@ $as_echo "yes with $JDK_TOPDIR" >&6; }
 
 
   HOTSPOT_DIST="$OUTPUT_ROOT/hotspot/dist"
-  BUILD_HOTSPOT=true
+  BUILD_HOTSPOT=false
 
 
 
