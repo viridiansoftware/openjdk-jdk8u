@@ -351,22 +351,26 @@ public class MethodHandleProxies {
         assert(isDefaultMethod(m) && !isObjectMethod(m)) : m;
 
         // Lazily compute the associated method handle from the method
-        MethodHandle dmh = defaultMethodMap.computeIfAbsent(m, mk -> {
-            try {
+		
+		//NOTE: Manual desugaring workaround
+		MethodHandle dmh = defaultMethodMap.get(m);
+		if(dmh == null) {
+			try {
                 // Look up the default method for special invocation thereby
                 // avoiding recursive invocation back to the proxy
                 MethodHandle mh = MethodHandles.Lookup.IMPL_LOOKUP.findSpecial(
-                        intfc, mk.getName(),
-                        MethodType.methodType(mk.getReturnType(), mk.getParameterTypes()),
+                        intfc, m.getName(),
+                        MethodType.methodType(m.getReturnType(), m.getParameterTypes()),
                         self.getClass());
-                return mh.asSpreader(Object[].class, mk.getParameterCount());
+                dmh = mh.asSpreader(Object[].class, m.getParameterCount());
+				defaultMethodMap.put(m, dmh);
             } catch (NoSuchMethodException | IllegalAccessException e) {
                 // The method is known to exist and should be accessible, this
                 // method would not be called unless the invokeinterface to the
                 // default (public) method passed access control checks
                 throw new InternalError(e);
             }
-        });
+		}
         return dmh.invoke(self, args);
     }
 }
