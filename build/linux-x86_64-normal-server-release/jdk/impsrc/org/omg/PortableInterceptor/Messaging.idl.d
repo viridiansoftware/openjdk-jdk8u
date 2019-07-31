@@ -1,2 +1,0 @@
-/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/Messaging/SyncScopeHelper.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/Messaging.idl
-/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/Messaging/SYNC_WITH_TRANSPORT.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/Messaging.idl
