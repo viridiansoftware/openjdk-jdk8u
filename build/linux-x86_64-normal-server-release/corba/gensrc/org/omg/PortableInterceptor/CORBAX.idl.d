@@ -1,0 +1,10 @@
+/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/CORBA/ParameterMode.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/CORBA/ParameterModeHolder.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/CORBA/StringSeqHelper.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/CORBA/WStringSeqHelper.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/CORBA/PolicyErrorHelper.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/CORBA/ParameterModeHelper.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/CORBA/PolicyErrorCodeHelper.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/CORBA/StringSeqHolder.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/CORBA/WStringSeqHolder.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
+/home/thomas/git/openjdk-jdk8u/build/linux-x86_64-normal-server-release/corba/gensrc/org/omg/CORBA/PolicyErrorHolder.java: /home/thomas/git/openjdk-jdk8u/corba/src/share/classes/org/omg/PortableInterceptor/CORBAX.idl
